@@ -15,7 +15,7 @@ export default function Login() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <img style={{marginLeft:"1%",width:"100%",height:"100%"}} src="https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png" alt="" />
+          <img style={{marginLeft:"-40%",width:"140%",height:"140%"}} src="https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png" alt="" />
         </div>
         <div className="loginRight">
           <form className="loginBox" >

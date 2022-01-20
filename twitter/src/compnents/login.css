@@ -3,7 +3,7 @@
     height: 100vh;
     background-color: #f0f2f5;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
   }
   .loginWrapper {
@@ -11,7 +11,10 @@
     height: 70%;
     display: flex;
   }
-  .loginLeft,
+  .loginLeft{
+    display: flex;
+    width: 50%;
+  }
   .loginRight {
     flex: 1;
     display: flex;
