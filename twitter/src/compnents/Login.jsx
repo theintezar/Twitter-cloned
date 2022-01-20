@@ -36,7 +36,15 @@ export default function Login() {
               className="loginInput"
               onChange={handleChange}
             />
-            <button onClick={console.log("")}>Login</button>
+            <button onClick={()=>{
+              fetch("https://twitter-backend1.herokuapp.com/login",{
+                method:"POST",
+              headers:{"Content-Type":"application/json"},
+              body:JSON.stringify(form)
+              })
+              .then(res => res.json())
+              .then(res => console.log(res))
+            }}>Login</button>
             <span className="loginForgot">Forgot Password?</span>
               
           </form>
